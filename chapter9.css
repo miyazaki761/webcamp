@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+
+}
+
+main {
+	width: 960px;
+}
+
+.step-box {
+	margin: 50px;
+}
+
+.step-img1 {
+	background-image: url(img9/flow01.png);
+	width: 280px;
+	float: left
+}
+
+.step-img2 {
+	background-image: url(img9/flow02.png);
+	width: 280px;
+	float: left
+}
+
+.step-img3  {
+	background-image: url(img9/flow03.png);
+	width: 280px;
+	float: left
+}
