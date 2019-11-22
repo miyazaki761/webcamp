@@ -61,3 +61,30 @@ main {
 .title {
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px) {
+  .step-box {
+  float: none;
+  width: 90%;
+  margin: 20px auto;
+  display: inline-block;
+   }
+
+ main {
+  margin: 50px 20px;
+  width: 100%;
+ }
+
+ .step-img1 {
+  width: 100%;
+ }
+
+.step-img2 {
+  width: 100%;
+ }
+
+ .step-img3 {
+  width: 100%;
+ }
+
+}
